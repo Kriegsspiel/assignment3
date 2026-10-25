@@ -125,3 +125,29 @@ ul {
 ol {
     list-style-type: lower-alpha;
 }
+
+/* Navigation menu */
+nav ul {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+nav li {
+    margin-bottom: 1rem;
+}
+
+nav a {
+    display: block;
+    padding: 1rem;
+    border: 2px solid #884444;
+    font-family: "Roboto Slab", serif;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+nav a:focus,
+nav a:hover {
+    color: white;
+    background-color: #552222;
+}
