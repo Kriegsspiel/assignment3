@@ -38,3 +38,15 @@ footer {
 footer p {
   text-align: center;
 }
+
+/* Layout */
+
+html {
+    font-family: "Lora", serif;
+}
+
+h1,
+h2 {
+    font-family: "Roboto Slab", serif;
+    font-weight: 700;
+}
