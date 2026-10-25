@@ -73,3 +73,34 @@ h2 {
 section h2 + p {
     text-indent: 2rem;
 }
+
+/* Link styling */
+
+a {
+    text-decoration: underline;
+    outline: none;
+}
+
+a:link {
+    color: #884444;
+}
+
+a:visited {
+    color: #663355;
+}
+
+a:focus,
+a:hover {
+    color: #552222;
+    background-color: #f5e8e8;
+    text-decoration: none;
+}
+
+a[href^="https://"] {
+    background-image: url("external-link-52.png");
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 0.8em;
+    padding-right: 1em;
+
+}
